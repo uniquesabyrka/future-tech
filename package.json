@@ -1,0 +1,25 @@
+{
+  "name": "future-tech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass styles/main.scss styles/main.css --source-map --watch",
+    "build": "sass styles/main.scss styles/main.min.css --style=compressed --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uniquesabyrka/future-tech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/uniquesabyrka/future-tech/issues"
+  },
+  "homepage": "https://github.com/uniquesabyrka/future-tech#readme",
+  "devDependencies": {
+    "sass": "^1.99.0"
+  }
+}
